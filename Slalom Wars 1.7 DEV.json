@@ -3,10 +3,10 @@
   "Version": 3,
   "GameVersion": "1.36.1.20719",
   "Language": "jass",
-  "UseRelativeMapDirectory": false,
+  "UseRelativeMapDirectory": true,
   "Comment": "Enter map-specific custom script code below.  This text will be included in the map script after variables are declared and before any trigger code.",
   "Header": "",
-  "War3MapDirectory": "C:\\Users\\daffa\\Documents\\Warcraft III\\Maps\\DaffaMaps\\Slalom Wars 1.7 DEV.w3x",
+  "War3MapDirectory": "Slalom Wars 1.7 DEV.w3x",
   "Files": [
     {
       "isEnabled": true,
@@ -2074,7 +2074,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Faction Tavern One",
       "Files": [
         {
@@ -2122,7 +2122,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Archmage",
           "Files": [
             {
@@ -2137,7 +2137,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Priestess of the Moon",
           "Files": [
             {
@@ -2166,7 +2166,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Paladin",
           "Files": [
             {
@@ -2188,7 +2188,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Mercenary",
           "Files": [
             {
@@ -2210,7 +2210,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Tauren Chieftain",
           "Files": [
             {
@@ -2232,7 +2232,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Guardian of the Light",
           "Files": [
             {
@@ -2268,7 +2268,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Demon Hunter",
           "Files": [
             {
@@ -2758,9 +2758,31 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "EXTERNAL RESOURCES",
       "Files": []
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": true,
+      "path": "LineAimer",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "LineAimer\\LineAimer.j",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "LineAimer\\LineAimerDemo.j",
+          "Files": []
+        }
+      ]
     },
     {
       "isEnabled": true,
