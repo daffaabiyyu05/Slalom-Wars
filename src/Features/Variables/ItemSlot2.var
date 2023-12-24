@@ -1,0 +1,14 @@
+{
+  "Id": 100663330,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "ItemSlot2",
+  "Type": "itemcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

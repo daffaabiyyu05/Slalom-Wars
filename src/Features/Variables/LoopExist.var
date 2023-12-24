@@ -1,0 +1,14 @@
+{
+  "Id": 100663359,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "LoopExist",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

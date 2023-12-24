@@ -1,0 +1,14 @@
+{
+  "Id": 100663472,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell__InRangeUnits",
+  "Type": "unit",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

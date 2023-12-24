@@ -1,0 +1,14 @@
+{
+  "Id": 100663482,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell_i_InRangeFilter",
+  "Type": "trigger",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

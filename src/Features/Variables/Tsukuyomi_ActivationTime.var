@@ -1,0 +1,14 @@
+{
+  "Id": 100663494,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Tsukuyomi_ActivationTime",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

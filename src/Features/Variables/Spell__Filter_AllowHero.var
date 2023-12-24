@@ -1,0 +1,14 @@
+{
+  "Id": 100663399,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell__Filter_AllowHero",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

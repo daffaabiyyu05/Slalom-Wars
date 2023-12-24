@@ -1,0 +1,3800 @@
+{
+  "Name": "Slalom Wars 1.7 DEV",
+  "Version": 3,
+  "GameVersion": "1.36.1.20719",
+  "Language": "jass",
+  "UseRelativeMapDirectory": false,
+  "Comment": "Enter map-specific custom script code below.  This text will be included in the map script after variables are declared and before any trigger code.",
+  "Header": "",
+  "War3MapDirectory": "C:\\Users\\daffa\\Documents\\Warcraft III\\Maps\\DaffaMaps\\Slalom Wars 1.7 DEV.w3x",
+  "Files": [
+    {
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Variables",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\StartingLumber.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\StartingGold.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AffaPoint.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AIHeroes.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\DEVELOPER_MODE.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PurchasableCounter.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_DEATH_COIL_SELF_CD.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_DEATH_COIL_DEF_CD.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_NATURE_FORCE_HP_BONUS.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_EXTRA_UPGRADED.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_EXTRA_NORMAL.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_DARK_EYE_PASSIVE_CHANCE.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_DARK_EYE_ULTI_COOLDOWN.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_DARK_EYE_COMMON_COOLDOWN.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_DARK_EYE_ULTI_TRIGGER.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_DARK_EYE_COMMON_TRIGGER.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SKILL_HEAVEN_BRACER_EXP.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ScourgeSide.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SentinelSide.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\MaxPlayer.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_Victim.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_ActiveMode.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_DummyEffect.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_DummyUnitSpell.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_DummyUnitSFX.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_DT.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_AT.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_StopOnManaDepletion.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_MPPenalty.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_HPPenalty.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_AoE_Radius.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_Damage.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_ActiveTime.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_ActivationTime.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_SFX_Dissipate.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_SFX.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_Buff.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Tsukuyomi_DummyAbil.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Dipper_Phases.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_BuffAbil.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__BuffAbility.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_BuffOrder.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__BuffOrder.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AutoAddTargets.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__AutoAddTargets.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_InRangeFilter.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Trigger_InRangeFilter.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__InRangeUnit.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__InRangeMax.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__StartDuration.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Expired.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_LastTime.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Duration.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__DurationPerLevel.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Duration.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__InRangeUnits.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__InRangeCount.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_GroupStack.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_GroupN.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Channeling.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Channeling.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowLiving.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowStructure.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowNonHero.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowMechanical.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowMagicImmune.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowHero.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowFlying.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowEnemy.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowDead.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_AllowAlly.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__InRangePoint.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__InRange.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__InRangeGroup.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Abil.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Ability.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_PreloadDummy.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Head.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_RecycleList.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Stack.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_StackRef.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_StackN.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Instances.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_OnCastStack.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Recycle.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Trigger_OnCast.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_OnChannelStack.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Trigger_OnChannel.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_OnEffectStack.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Trigger_OnEffect.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_OnFinishStack.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Index.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Trigger_OnFinish.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_OnLoopStack.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Hash.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Trigger_OnLoop.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Linked.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_EventType.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Completed.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_UseTG.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Timer.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Completed.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__UseTargetGroup.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Running.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__TargetGroup.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_TargetGroup.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Caster.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Target.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Target.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Caster.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__TargetPoint.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__CastPoint.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_TargetX.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_TargetY.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Time.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Time.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__CasterOwner.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Level.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell_i_Level.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__LevelMultiplier.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__WakeTargets.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowMagicImmune.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowStructure.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowMechanical.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowFlying.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowDead.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowAlly.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowNonHero.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowHero.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowLiving.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Filter_AllowEnemy.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__Interval.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__DummyOwner.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Spell__DummyType.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AIPickHeroStr.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\DarknessEyeGroup.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AIReport.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Player.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PlayerHero.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ZSpell_RageGroup.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\TempInt.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemCleanupTimer.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\CleanedItem.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemsToClean.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Loop.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemCleanupFlag.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\TotalAIHeroScourge.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\TotalAIHeroSentinel.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\FallAltar.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AncAltar.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AIRetreating.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SetChoosingWindow.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\TimeForChoosing.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Circle.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\TempInteger.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AICash.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Scourge.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Sentinel.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PriceReversed6.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PriceReversed5.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PriceReversed4.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PriceReversed3.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PriceReversed2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PriceReversed1.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\IsAISentinel.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\RevPoint.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\TotalAIHero.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AISkillCode.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\LoopExist.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AIHeroDead.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\DeadAI.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_Loop.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\RevivalTimer.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AIIsRevived.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AIItemBuyCode.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AILoopItem.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AINumber.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\AIValue.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Randomizer.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemBuildPrice6.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemBuildPrice5.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemBuildPrice4.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemBuildPrice3.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemBuildPrice2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemBuildPrice1.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SkillBuildScgUlt.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SkillBuildScg3.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SkillBuildScg2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SkillBuildScg1.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SkillBuildSentUlt.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SkillBuildSent3.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SkillBuildSent2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SkillBuildSent1.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemSlot3.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemSlot6.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemSlot5.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemSlot4.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemSlot2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ItemSlot1.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ScourgeHeroAI.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SentinelHeroAI.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\ScourgeSpawnType.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SentinelSpawnType.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\VictimPower.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Victim.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Killer.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\KillerPower.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\VictimCode.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\HeadPriceBonus.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\KillerCode.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\DummySkill.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\DummySkillLoop.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\DummySkillTotal.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\RealSkill2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\RealSkill1.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PlayerKiller.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\PlayerKilled.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\DaySkill.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\NightSkill.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\MaxSwitchSkill.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\SkillLoop.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\BountyBonus.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Reward.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_Player_2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_Unit_2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_UnitType.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_Unit.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_Player.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_Reg_2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_Reg.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_Point_2.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Features\\Variables\\Temp_Point.var",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Core.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Ability Cast.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Quest Log.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": false,
+          "isExpanded": false,
+          "path": "Features\\Spawn Right1.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": false,
+          "isExpanded": false,
+          "path": "Features\\Spawn Right2.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": false,
+          "isExpanded": false,
+          "path": "Features\\Spawn Left1.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": false,
+          "isExpanded": false,
+          "path": "Features\\Spawn Left2.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Hero Bounty.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Hero Unit Enters Map.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Hero Revival.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Bonus Money.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Resources.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Altar Death.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Selection Circle On.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Selection Circle Off.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Choosing Time.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Time Up.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Only One.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Creep Boost.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Handicap Boost.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Bonus2.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Hero Drop.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Hero Bounty Rise.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Hero Low Health.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Main Building Falls.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\TestCenter.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\TestVision.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\TestLevel.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\TestRestore.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\TestMoney.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\AIReport.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Bounty Info.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Bounty Info Self.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Tech Info.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Spawn Rush.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\DamageFloatText.trg",
+          "Files": []
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "Developer Mode",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Developer Mode\\Hide Developer.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Developer Mode\\Developer Mode.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Developer Mode\\Kill Hero.trg",
+          "Files": []
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": true,
+      "path": "Research",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Research\\Mind Cooperation.trg",
+          "Files": []
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "AI",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Config.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI About to Select.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Preparation.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Growth.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Learn Skill.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Itemizing.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Retreat.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Restart Attack.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Dies.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": false,
+          "isExpanded": false,
+          "path": "AI\\AI Return.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": false,
+          "isExpanded": false,
+          "path": "AI\\AI Upgrades.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Train Change.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Orb.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Artifact.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Essence.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Combat Item.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "AI\\AI Reset.trg",
+          "Files": []
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "Faction Tavern One",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\SkillData.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Upgrade Skill.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Day and Night Skills Index.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Day and Night Skills Switch.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Dummy Hero Skill Index.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Dummy Hero Skills Adding.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Archmage",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Archmage\\Empowered Elementals.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Priestess of the Moon",
+          "Files": [
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Priestess of the Moon\\No Autocast Searing.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Priestess of the Moon\\Elune Arrow.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Priestess of the Moon\\Star Rain.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Paladin",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Paladin\\Holy Aura.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Paladin\\Exorcism.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Mercenary",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Mercenary\\No Autocast Blood Money.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Mercenary\\Blood Money Hit.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Tauren Chieftain",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Tauren Chieftain\\Will of the Earth.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Tauren Chieftain\\Totem of Might.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Guardian of the Light",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Guardian of the Light\\Judgement.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Guardian of the Light\\Light Blast.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Guardian of the Light\\Light Pulse.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Guardian of the Light\\Speed of Light.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Demon Hunter",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Demon Hunter\\Mana Burn.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Demon Hunter\\Auto Rage.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Far Seer",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Far Seer\\Eye of Seer.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Far Seer\\Elementalist.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Blood Mage",
+          "Files": [
+            {
+              "isEnabled": false,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Blood Mage\\Relocation Magic Cancel.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Blood Mage\\Relocation Magic TP.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Death Knight",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Death Knight\\Death Coil.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Death Knight\\Death Decree.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Death Knight\\Armor of Darkness.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Keeper of the Grove",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Keeper of the Grove\\Nature Force.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Keeper of the Grove\\Peace.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\X-Commander of Acceleration Squad",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\X-Commander of Acceleration Squad\\Eye of Darkness Loop.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\X-Commander of Acceleration Squad\\Eye of Darkness Proc.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\General of Alariz Alliance",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\General of Alariz Alliance\\Navalas.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Fallen",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Fallen\\Tsukuyomi Config.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Fallen\\Tsukuyomi Cast.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Faction Tavern One\\Fallen\\Tsukuyomi Loop.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Faction Tavern One\\Hamaria the Aeon.trg",
+          "Files": []
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "Persona Heroes Skills",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Persona Heroes Skills\\Upgrade Skill Persona.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Persona Heroes Skills\\Common",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Common\\Eiga.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Persona Heroes Skills\\Black Mask",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Black Mask\\Lavaeteinn.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Black Mask\\Lavaeteinn Cancel.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Black Mask\\Lavaeteinn Cancel Level.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Black Mask\\Lavaeteinn Telegraph.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Persona Heroes Skills\\Akechi Goro",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Akechi Goro\\Tactical Spirit.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Akechi Goro\\Megaton Raid.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Akechi Goro\\Megaton Raid Cancel.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Akechi Goro\\Kouga.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Persona Heroes Skills\\Joker",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Joker\\LifeAidInt.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Joker\\HazyPresence.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Joker\\PhantomShow.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Joker\\PhantomShowBlow.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Joker\\Maeiga.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Joker\\LifeAid.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Persona Heroes Skills\\Joker\\HeatRiserNoAutocast.trg",
+              "Files": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "Items",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Items\\Heaven Bracer Get.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Items\\Heaven Bracer Lost.trg",
+          "Files": []
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "Soul Essence",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Soul Essence\\Check Essence.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Soul Essence\\Atlus Essence",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Atlus Essence\\Raidou Essence.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Soul Essence\\Hive Totem",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Hive Totem\\DirectiveEssence.trg",
+              "Files": []
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Soul Essence\\Kharis the Soulkeeper",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Kharis the Soulkeeper\\Assar Essence",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Soul Essence\\Kharis the Soulkeeper\\Assar Essence\\AssarHeroStats.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Soul Essence\\Kharis the Soulkeeper\\Assar Essence\\Assar Essence.trg",
+                  "Files": []
+                }
+              ]
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Kharis the Soulkeeper\\LegendzKing Essence.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Kharis the Soulkeeper\\Affa Essence.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Kharis the Soulkeeper\\Sadim Essence.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Kharis the Soulkeeper\\Affad Essence A.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Kharis the Soulkeeper\\Affad Essence B.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Kharis the Soulkeeper\\Atika Essence.trg",
+              "Files": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "EXTERNAL RESOURCES",
+      "Files": []
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "GUI Spell System",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "GUI Spell System\\Spell System Config.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "GUI Spell System\\Spell System.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "GUI Spell System\\Spell System Sample Config.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "GUI Spell System\\Spell System Sample Trigger.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "GUI Spell System\\Spell System Sample Filter.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": false,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "GUI Spell System\\Spell System All In One Template.trg",
+          "Files": []
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "Item Cleanup",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Item Cleanup\\Item Cleanup.trg",
+          "Files": []
+        }
+      ]
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": false,
+      "path": "Damage Engine",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Damage Engine\\Vars",
+          "Files": [
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventArmorPierced.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\AfterDamageEvent.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventOverride.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEvent.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageModifierEvent.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventAmount.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventSource.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventTarget.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventPrevAmt.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\LethalDamageEvent.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\LethalDamageHP.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\AOEDamageEvent.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\AOEDamageSource.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventAOE.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventAOEGroup.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventLevel.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\EnhancedDamageTarget.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventType.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\NextDamageIsAttack.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\NextDamageIsRanged.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\NextDamageIsMelee.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\NextDamageType.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\NextDamageWeaponT.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageScalingUser.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageScalingWC3.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageTypeBlocked.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageTypeCriticalStrike.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageTypeCode.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageTypeExplosive.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageTypeHeal.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageTypePure.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageTypePureExplosive.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageTypeReduced.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\DamageEventTrigger.var",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\Filter Types",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\IsDamageAttack.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\IsDamageMelee.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\IsDamageRanged.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\IsDamageSpell.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\IsDamageCode.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterSource.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterTarget.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterAttackT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterDamageT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterSourceT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterTargetT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterSourceB.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterTargetB.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterType.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Filter Types\\DamageFilterMinAmount.var",
+                  "Files": []
+                }
+              ]
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\Armor Types",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Armor Types\\DamageEventArmorT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Armor Types\\ARMOR_TYPE_NONE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Armor Types\\ARMOR_TYPE_FLESH.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Armor Types\\ARMOR_TYPE_METAL.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Armor Types\\ARMOR_TYPE_WOOD.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Armor Types\\ARMOR_TYPE_ETHEREAL.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Armor Types\\ARMOR_TYPE_STONE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Armor Types\\ArmorTypeDebugStr.var",
+                  "Files": []
+                }
+              ]
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\Attack Types",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\CONVERTED_ATTACK_TYPE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\DamageEventAttackT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\ATTACK_TYPE_SPELLS.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\ATTACK_TYPE_NORMAL.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\ATTACK_TYPE_PIERCE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\ATTACK_TYPE_SIEGE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\ATTACK_TYPE_MAGIC.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\ATTACK_TYPE_CHAOS.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\ATTACK_TYPE_HERO.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Attack Types\\AttackTypeDebugStr.var",
+                  "Files": []
+                }
+              ]
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\Damage Types",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\CONVERTED_DAMAGE_TYPE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DamageEventDamageT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_UNKNOWN.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_NORMAL.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_ENHANCED.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_FIRE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_COLD.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_LIGHTNING.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_POISON.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_DISEASE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_DIVINE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_MAGIC.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_SONIC.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_ACID.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_FORCE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_DEATH.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_MIND.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_PLANT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_DEFENSIVE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_DEMOLITION.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_SLOW_POISON.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_SPIRIT_LINK.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_SHADOW_STRIKE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DAMAGE_TYPE_UNIVERSAL.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Damage Types\\DamageTypeDebugStr.var",
+                  "Files": []
+                }
+              ]
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\Defense Types",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DamageEventDefenseT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DEFENSE_TYPE_LIGHT.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DEFENSE_TYPE_MEDIUM.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DEFENSE_TYPE_HEAVY.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DEFENSE_TYPE_FORTIFIED.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DEFENSE_TYPE_NORMAL.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DEFENSE_TYPE_HERO.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DEFENSE_TYPE_DIVINE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DEFENSE_TYPE_UNARMORED.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Defense Types\\DefenseTypeDebugStr.var",
+                  "Files": []
+                }
+              ]
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Damage Engine\\Vars\\Weapon Types",
+              "Files": [
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WeaponTypeDebugStr.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_NONE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_ML_CHOP.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_MM_CHOP.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_MH_CHOP.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_ML_SLICE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_MM_SLICE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_MH_SLICE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_MM_BASH.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_MH_BASH.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_MM_STAB.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_MH_STAB.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_WL_SLICE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_WM_SLICE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_WH_SLICE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_WL_BASH.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_WM_BASH.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_WH_BASH.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_WL_STAB.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_WM_STAB.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_CL_SLICE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_CM_SLICE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_CH_SLICE.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_AM_CHOP.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\WEAPON_TYPE_RH_BASH.var",
+                  "Files": []
+                },
+                {
+                  "isEnabled": true,
+                  "isInitiallyOn": true,
+                  "isExpanded": false,
+                  "path": "Damage Engine\\Vars\\Weapon Types\\DamageEventWeaponT.var",
+                  "Files": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Damage Engine\\Damage Engine Config.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Damage Engine\\Damage Engine.trg",
+          "Files": []
+        }
+      ]
+    }
+  ]
+}

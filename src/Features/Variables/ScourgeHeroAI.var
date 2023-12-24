@@ -1,0 +1,14 @@
+{
+  "Id": 100663328,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "ScourgeHeroAI",
+  "Type": "unitcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

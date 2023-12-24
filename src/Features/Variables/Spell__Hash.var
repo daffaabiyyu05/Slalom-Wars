@@ -1,0 +1,14 @@
+{
+  "Id": 100663433,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell__Hash",
+  "Type": "hashtable",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

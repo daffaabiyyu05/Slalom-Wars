@@ -1,0 +1,14 @@
+{
+  "Id": 100663447,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell_i_StackRef",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

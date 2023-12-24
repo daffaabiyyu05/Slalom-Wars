@@ -1,0 +1,14 @@
+{
+  "Id": 100663469,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell_i_GroupN",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

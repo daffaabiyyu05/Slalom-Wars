@@ -1,0 +1,14 @@
+{
+  "Id": 100663474,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell__DurationPerLevel",
+  "Type": "real",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

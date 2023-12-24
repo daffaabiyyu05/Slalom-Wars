@@ -1,0 +1,14 @@
+{
+  "Id": 100663500,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Tsukuyomi_StopOnManaDepletion",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

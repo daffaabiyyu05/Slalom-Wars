@@ -1,0 +1,14 @@
+{
+  "Id": 100663377,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "AIRetreating",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

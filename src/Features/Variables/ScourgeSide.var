@@ -1,0 +1,14 @@
+{
+  "Id": 100663510,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "ScourgeSide",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

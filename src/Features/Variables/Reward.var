@@ -1,0 +1,14 @@
+{
+  "Id": 100663305,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Reward",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

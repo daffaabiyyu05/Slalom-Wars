@@ -1,0 +1,14 @@
+{
+  "Id": 100663509,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "SentinelSide",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

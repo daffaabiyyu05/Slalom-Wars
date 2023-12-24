@@ -1,0 +1,14 @@
+{
+  "Id": 100663456,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell__InRangePoint",
+  "Type": "location",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

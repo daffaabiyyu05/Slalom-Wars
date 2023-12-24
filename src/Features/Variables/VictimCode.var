@@ -1,0 +1,14 @@
+{
+  "Id": 100663320,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "VictimCode",
+  "Type": "integer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

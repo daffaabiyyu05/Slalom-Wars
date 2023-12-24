@@ -1,0 +1,14 @@
+{
+  "Id": 100663375,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "TimeForChoosing",
+  "Type": "timer",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

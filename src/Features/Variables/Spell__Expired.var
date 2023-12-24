@@ -1,0 +1,14 @@
+{
+  "Id": 100663477,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell__Expired",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

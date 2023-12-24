@@ -1,0 +1,14 @@
+{
+  "Id": 100663513,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "SKILL_DARK_EYE_ULTI_TRIGGER",
+  "Type": "real",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663428,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell_i_UseTG",
+  "Type": "boolean",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

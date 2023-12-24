@@ -1,0 +1,14 @@
+{
+  "Id": 100663435,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell__Trigger_OnFinish",
+  "Type": "trigger",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

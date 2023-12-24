@@ -1,0 +1,14 @@
+{
+  "Id": 100663449,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell_i_RecycleList",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

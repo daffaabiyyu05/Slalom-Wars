@@ -1,0 +1,14 @@
+{
+  "Id": 100663483,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell__AutoAddTargets",
+  "Type": "boolean",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

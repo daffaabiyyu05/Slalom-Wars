@@ -1,0 +1,14 @@
+{
+  "Id": 100663504,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Tsukuyomi_DummyUnitSpell",
+  "Type": "unit",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

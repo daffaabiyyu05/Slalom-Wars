@@ -1,0 +1,14 @@
+{
+  "Id": 100663422,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell_i_TargetGroup",
+  "Type": "group",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

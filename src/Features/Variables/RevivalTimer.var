@@ -1,0 +1,14 @@
+{
+  "Id": 100663355,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "RevivalTimer",
+  "Type": "real",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

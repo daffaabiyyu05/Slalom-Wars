@@ -1,0 +1,14 @@
+{
+  "Id": 100663453,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Spell_i_Abil",
+  "Type": "abilcode",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

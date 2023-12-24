@@ -1,0 +1,14 @@
+{
+  "Id": 100663489,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Dipper_Phases",
+  "Type": "integer",
+  "IsArray": true,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 100663502,
+  "ArraySize": [
+    1,
+    1
+  ],
+  "Name": "Tsukuyomi_DT",
+  "Type": "damagetype",
+  "IsArray": false,
+  "IsTwoDimensions": false,
+  "InitialValue": {
+    "value": null
+  }
+}
