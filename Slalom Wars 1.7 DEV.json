@@ -9,6 +9,11 @@
   "War3MapDirectory": "C:\\Users\\daffa\\Documents\\Warcraft III\\Maps\\DaffaMaps\\Slalom Wars 1.7 DEV.w3x",
   "Files": [
     {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": true,
+      "path": "Features",
+      "Files": [
         {
           "isEnabled": true,
           "isInitiallyOn": true,
