@@ -379,6 +379,158 @@
         "parameters": [
           {
             "ParamType": 5,
+            "value": "1"
+          },
+          {
+            "ParamType": 5,
+            "value": "e00B"
+          },
+          {
+            "ParamType": 1,
+            "parameters": [
+              {
+                "ParamType": 1,
+                "parameters": [],
+                "value": "GetTriggerUnit"
+              }
+            ],
+            "value": "GetOwningPlayer"
+          },
+          {
+            "ParamType": 3,
+            "VariableId": 100663296,
+            "arrayIndexValues": [
+              {
+                "ParamType": 5,
+                "value": "0"
+              },
+              {
+                "ParamType": 5,
+                "value": "0"
+              }
+            ],
+            "value": null
+          },
+          {
+            "ParamType": 2,
+            "value": "RealUnitFacing"
+          }
+        ],
+        "value": "CreateNUnitsAtLoc"
+      }
+    },
+    {
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 1,
+            "parameters": [],
+            "value": "GetLastCreatedUnit"
+          }
+        ],
+        "value": "RemoveGuardPosition"
+      }
+    },
+    {
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 1,
+            "parameters": [],
+            "value": "GetLastCreatedUnit"
+          }
+        ],
+        "value": "LockGuardPosition"
+      }
+    },
+    {
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 5,
+            "value": "AInv"
+          },
+          {
+            "ParamType": 1,
+            "parameters": [],
+            "value": "GetLastCreatedUnit"
+          }
+        ],
+        "value": "UnitAddAbilityBJ"
+      }
+    },
+    {
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 5,
+            "value": "I01N"
+          },
+          {
+            "ParamType": 1,
+            "parameters": [],
+            "value": "GetLastCreatedUnit"
+          }
+        ],
+        "value": "UnitAddItemByIdSwapped"
+      }
+    },
+    {
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 1,
+            "parameters": [],
+            "value": "GetLastCreatedUnit"
+          },
+          {
+            "ParamType": 1,
+            "parameters": [],
+            "value": "GetLastCreatedItem"
+          }
+        ],
+        "value": "UnitUseItem"
+      }
+    },
+    {
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 5,
+            "value": "1"
+          },
+          {
+            "ParamType": 2,
+            "value": "TimedLifeBuffCodeGeneric"
+          },
+          {
+            "ParamType": 1,
+            "parameters": [],
+            "value": "GetLastCreatedUnit"
+          }
+        ],
+        "value": "UnitApplyTimedLifeBJ"
+      }
+    },
+    {
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 5,
             "value": "call RemoveLocation (udg_Temp_Point)"
           }
         ],

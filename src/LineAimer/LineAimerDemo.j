@@ -23,5 +23,10 @@ scope DefaultLineAimerDemo initializer init_function
         /*Add everything here*/
         call LineAimerRegisterEx('A00Z', "carrionswarm") //Elune's Arrow
         call LineAimerRegisterEx('A02A', "shockwave") //Tauren Shockwave
+        call LineAimerRegisterEx('A033', "carrionswarm") //Phoenix Charge
+        call LineAimerRegisterEx('A032', "impale") //Wind Style: Tornado
+        call LineAimerRegisterEx('A02P', "carrionswarm") //Water Wave
+        call LineAimerRegisterEx('A02H', "carrionswarm") //Carrion Swarm
+        call LineAimerRegisterEx('A01T', "impale") //Impale
     endfunction
 endscope

@@ -689,42 +689,6 @@ STRING 218
 Increases self movement speed by <A001,DataA1,%>% and <A001,DataB1,%>% life regeneration rate.
 }
 
-STRING 221
-{
-Version 0.1 Alpha
-}
-
-STRING 222
-{
-Increase Hunter Day (Warden) proc from 10% to 25% but lowered damage from 20 to 15
-Lowered Hunter Night (Warden) proc from 100% to 70% and damage from 50 to 35
-Lowered Master Vampire Day (Dreadlord) attack speed reduction from 10% to 5%
-Increase Undead General (Death Knight) AOE from 875 to 950
-Lowered Frostmoure (Death Knight) proc from 100% to 80%
-Increase Chilling Aura (Lich) AOE from 900 to 950
-Increase Holy Dodge (Paladin) proc from 25% to 30% and fix it's tooltip
-Lowered Web (Crypt Lord) cooldown from 5 to 3 seconds
-Increase Voodoo Shell (Shadow Hunter) duration from 100 to 110 seconds
-Altered Holy Light (Paladin) healing (damage) from 200/400/600 (100/200/300) to 225/450/675 (112/225/337) on day and 100/180/324 (50/90/152) on night, and has twice cooldown on night
-Lowered experience gain from 100% to 25%
-Warden Agility gain increased from 1.60 to 2.40 per level
-Huntress and Abomination (Creep Spawns) now has 500/500 vision, reduced from 1400/800
-Base AI now uses default heroes instead of modified ones
-Berserk (Blademaster and Demon Hunter) damage taken increment reduced from 60% to 30%
-Mercenary Spells now uses ZXCV instead of QWER
-Reposition some buildings
-Remove all Neutral Hostile from the map, along with Gold Mines and Neutral Buildings
-Added Item Shops and 2 Fountains for both sides
-Renamed All Shops except Alchemist
-Introduces new reward method in killing heroes, base AI heroes no longer counts and now heroes have a new mechanic of gold received upon killing heroes
-Reworked Divine Shield (Paladin), no longer provide real invulnerability but instead still attackable but takes no damage and use hotkey W instead of D, reduced cooldown from 35/50/65 to 30/45/60 seconds
-Warden now use Maiev model and icon
-Fixed Deny System
-Change colors of players, now all player heroes are undistinguisable to allow sneaky pass, All Players except AIs and Neutral uses Black Colors
-Remove trees on upper and below of the middle path, giving more versilatility
-Avatar of Vengeance (Warden) now summon weaker spirit (425 health instead of 500 health), has longer cooldown to summon spirit (increased from 2 to 5 seconds) and less duration for the summoned spirits (45 seconds from 50 seconds)
-}
-
 STRING 224
 {
 |cffffd700Credits|r
@@ -794,27 +758,6 @@ STRING 263
 // Abilities: A00C (Holy Dodge), Tip (Tooltip - Normal)
 {
 Holy Dodge
-}
-
-STRING 264
-{
-Special Thanks
-}
-
-STRING 265
-{
-Ardenian : a motivator to continue this map
-Blizzard Entertainment : base map, World Editor, most of the content basis
-}
-
-STRING 266
-{
-First Release
-}
-
-STRING 267
-{
-First Release of Slalom Wars
 }
 
 STRING 268
@@ -935,63 +878,6 @@ STRING 310
 // Abilities: A00X (Spirit of Vengeance), EditorSuffix (Editor Suffix)
 {
  (Warden Avatar)
-}
-
-STRING 311
-{
-Version 0.2 Alpha
-}
-
-STRING 312
-{
-Blink (Warden) cooldown increased from 5 to 10 seconds and mana cost increased from 50/25/0 to 50/37/28 and hotkey changed from B to X
-Paid Mercenary (Mercenary) proc chance reduced from 75% to 60%
-Arcane Aura (Many Heroes) regen bonus reduced from 100% to 75%
-Holy Light Night (Paladin) heal (damage) increased from 100/180/324 (50/90/162) to 100/200/400 (50/100/200)
-Fountain of Life now has Mana Regeneration
-Changed Night Elves Spawn color from Dark Green to Gray
-Slow Poison (Dyard) duration reduced from 5 to 3 seconds
-Reduces overall revive gold cost and time to revive (due to Warcraft's mechanic, it's difficult to explain)
-New towers with high resistance for early game control, avoiding quick wipe
-Increase EXP rate from 25% to 50%
-Arcane Aura replaced by Water Wave (Archmage)
-Archmage attack SFX changed
-Delete Deny System
-Fixed Killing System glitch
-Scout (PotM) replaced with Elune's Arrow
-Voodoo Cloud (Shadow Hunter) replaced with Shuriken
-Voodoo Shell (Shadow Hunter) hotkey changed from T to W
-Spawning altered
-Changed Warden Soundset to Maiev
-Changed Shop Soundsets
-Serpent Ward (Shadow Hunter) now summons 2/2/3 wards from 1/1/1 wards, changed hotkey to C, and cooldown increased from 6.5/6.5/6.5 to 10/11/12 seconds
-Reduces Berserk (Demon Hunter and Blademaster) damage taken increment from 30% to 5%
-Holy Light (Paladin) tooltip changed and now uses Z hotkey
-Hunter (Warden) uses a new icon
-Fixed many tooltip errors
-Some aethistical changes
-Berserk (Blademaster) renamed into Rage and now cost 75 mana but has no damage increment
-Berserk (Demon Hunter) renamed into Demon's Fury and retains it's latest statistic
-More new names for Mercenary
-AI Added
-PotM Soundset changed into Tyrande
-Totem of Might (Tauren Chieftain) now plays stand animation when summoned
-Devotion Aura (Paladin) replaced with Holy Aura, which has same effect except now it increases Paladin's mana pool.
-Brilliance Aura (Archmage) improved from 0.75/1.5/2.25 to 0.85/1.80/2.75 mana increase and hotkey changed from R to C
-Blizzard (Archmage) damage and mana cost increased, hotkey changed from B to Z
-Water Elemental and Mass Teleport (Archmage) hotkey changed into X and V respecitvely
-Mass Teleport (Archmage) casting delay decreased and amount of teleported troops increased
-}
-
-STRING 313
-{
-Old Alpha Tester
-}
-
-STRING 314
-{
-Ardenian
-LegendzKing
 }
 
 STRING 315
@@ -1310,19 +1196,6 @@ STRING 392
 // Items: I01F (Loki's Essence: Mental Shutdown), Hotkey (Hotkey)
 {
 Z
-}
-
-STRING 395
-{
-Skins
-}
-
-STRING 396
-{
-Glitzage : Glaive Thrower
-HammerFist123 : Cooldown UI
-Avatars Lord : Arrow Health Bar
-Avatars Lord : Barcode Health Bar
 }
 
 STRING 397
@@ -1698,17 +1571,6 @@ STRING 500
 Selection Circle
 }
 
-STRING 501
-{
-Systems
-}
-
-STRING 502
-{
-Legal_Ease : Selection Circle
-Bribe : Item Cleanup 1.2, Spell System
-}
-
 STRING 503
 // Abilities: A01B (Fatal Blow), Name (Name)
 {
@@ -1743,58 +1605,6 @@ STRING 513
 // Abilities: A01B (Fatal Blow), Researchtip (Tooltip - Learn)
 {
 Learn Fatal Blow [|cffffd700C|r] - [|cffffcc00Level %d|r]
-}
-
-STRING 514
-{
-Version 0.3 Alpha
-}
-
-STRING 515
-{
-Selection Circle is removed and now use an overhead effect to show selected units
-Special Towers now deals more damage and has more armor
-Remake the Kill System, now the Base AI can get golds as well
-Fixed some issue with spawning
-Moved the shops and the fountain toward each team's base
-Now Hero is bought from taverns
-Heroes no longer gets initial free SoTP
-Defeated Players troops now instantly removed from the game
-Added Fulbolg as buyable troops for NE
-Added Fel Beast as buyable troops for Undead
-Archers and Crypt Fiends now moves at 255 movement speed from 270
-Added Meat Wagons and Glaive Throwers
-Elven Reinforcement color changed from Gray to Teal
-Huntress damage increased from 15 to 20
-Increase towers range from 900 to 100
-Empowered Blade [Q] gold cost increased from 700 to 2500
-Added Many New Items
-Fixed a glitch with item purchasing, giving AI full ability to purchase certain items at 0 gold cost
-Fixed a bug which causes Base AI to accidentally affected by AOS AI
-Fixed AI not attacking base properly
-AI now gains 2/4/10 golds per second
-AI now revives 10 second slower
-Fan of Knives removed and replaced with Fatal Blow and become 3rd skill, uses C hotkey to learn
-Shadow Strike cooldown, movement speed reduction and mana cost has been increased, also damage has been decreased, and changed into 1st skill, uses Z hotkey for learn and use
-Vengeance mana cost has been increased from 150 to 200
-Arcane Aura replaced with Holy Blessing
-Holy Dodge now has 2 variants, day and night version, which grants 20% and 10% evasion respectively
-Bladestorm -> Blade Fury, changed into 2nd skill
-Wind Walk cooldown increased from 5/5/5 to 60/60/60 seconds and damage decreased from 40/70/100 into 25/60/95 damage
-Critical Strike chance changed from 15% to 10/12/14%
-Totem of Might mana cost reduced from 200 to 175, but health reduced from 500 to 300
-Blood Money now grants gold per attack with 5 gold each instead of grants 200 golds on deathblow, the gold is also lost by the owner of the victim
-Sleep is replaced by Mind Terror
-Modified Carrion Swarm stats
-Vampiric Aura is replaced by Fear of Nathrezim
-Modified Inferno stats
-Starfall becomes third skill and stat changed
-Star Rain added as Ultimate
-Searing Arrows stat changed, autocast disabled
-Replaced Evasion with Demonic Leak
-Changed Metamorphosis stats, as well as now grants Spell Immunity
-Mana Burn hotkey changed into Z
-Immolation stats modified
 }
 
 STRING 516
@@ -2209,17 +2019,6 @@ STRING 605
 Blade Fury [|cffffd700X|r] - [|cffffd700Level 3|r]
 }
 
-STRING 609
-{
-Remaining Pick Hero Time
-}
-
-STRING 610
-{
-Hero Choosing Time is over!
-The war has begun!
-}
-
 STRING 611
 // Abilities: A00Z (Elune's Arrow), Researchhotkey (Hotkey - Learn)
 {
@@ -2548,27 +2347,6 @@ STRING 698
 // Abilities: A01K (Dummy Starfall Sight), Name (Name)
 {
 Dummy Starfall Sight
-}
-
-STRING 699
-// Abilities: A01I (Star Rain), Researchtip (Tooltip - Learn)
-{
-Learn Star Rain [|cffffd700V|r]
-}
-
-STRING 700
-// Abilities: A01I (Star Rain), Tip (Tooltip - Normal)
-{
-Star Rain [|cffffd700V|r]
-}
-
-STRING 701
-{
-Singleplayer Mode detected! Test commands enabled :
--vision : grants vision of whole map
--lvl : player hero becomes level 20
--heal : reset your units and heroes health, mana and spell cooldown
--kaya : max gold and lumber
 }
 
 STRING 703
@@ -3145,39 +2923,6 @@ STRING 843
 // Items: I005 (Assassin Claws), Tip (Tooltip - Basic)
 {
 Purchase Assassin Claws [|cffffd700Z|r]
-}
-
-STRING 844
-{
-Version 0.4 Alpha
-}
-
-STRING 845
-{
-PoTM Star Rain 3 first waves deals 60 damage per wave, up from 25 and now sent 20 shards per wave, up from 10.
-All heroes can now attack air without any orb.
-AI Experience gain lowered from 75/100/150% to 20/40/60%
-Change stats spawning soldiers, they're now trainable at player altars as well
-AI now has special healing and bonus health added to their hero, this is to boost AI performance (less retreats and tougher resistance)
-PoTM Searing Arrows now deals 30/60/120 damage, up from 25/40/55 and can be autocasted but now has cooldown of 10/10/5, up from 10/5/0 and has mana cost of 25/30/35, up from 25/25/25.
-Demon Hunter's Demonic Leak now has 1000 range, up from 900.
-Demon Hunter's Mana Burn mana combust also applies to nearby units in 300 range of target at level 3 but mana combust reduced to 100 from 140.
-Dreadlord's Fear of Nathrezim range reduced from 450 to 300.
-Dreadlord's Carrion Swarm max damage increased to 1500/3000/4500 from 1000/2000/3000 and wave damage increased to 100/200/400 from 100/150/275.
-Demon Hunter's Immolation activation cost reduced from 25/25/25 to 25/20/15.
-Changes AI retreat behaviour.
-Heroes can now be upgraded using Altar.
-Players no longer lost on Altar's death, but when all buildings are destroyed.
-Mountain King's Thunder Clap replaced with Ground Smash.
-Production building no longer able to hire units.
-Innate abilities now has 2 levels, where they can be upgraded using research.
-Player can now check bounty bonus by typing -b
-Warden's Fatal Blow now deals 3/4.5/6 times damage, up from 1.6/1.9/2.2 but it's chance reduced to 10% from 12.5/16.3/21.1%
-New -t command to see player's tech level.
-Altars now heal by 3 hp/sec.
-Paid Mercenary now grants 30% extra bounty.
-Shuffled Demon Hunter and Tauren Chieftain.
-Food increased to 300.
 }
 
 STRING 846
@@ -11094,17 +10839,6 @@ STRING 2643
 Increases hero's health by 25 and regeneration rate by 0.05%. Also increase movement speed by 3.
 }
 
-STRING 2648
-{
-Choose you hero!
-
-This game is made by Daffa the Mage. Get official version at hiveworkshop.com or intip.in/SlalomWars
-
-Available commands :
--b : Check Bounty Bonus of All Players
--t : Check Player's Current Tech
-}
-
 STRING 2652
 // Abilities: A009 (Demon's Fury), Tip (Tooltip - Normal)
 {
@@ -13367,22 +13101,6 @@ STRING 3073
 Improve the power of spawned creeps.
 }
 
-STRING 3077
-{
-Version 0.5 Alpha
-}
-
-STRING 3078
-{
-Human Players no longer can train units (only buy from shops)
-Fixed randomization of shops
-Creeps can be buffed now
-Improved Innate Upgrade
-Ability rebalances
-Fixed tooltips
-Holy Aura mana bonus doubled
-}
-
 STRING 3079
 // Upgrades: R005 (Flying Machine Bombs), effect3 (Effect 3)
 {
@@ -15465,16 +15183,6 @@ STRING 3486
 Gives a <A01E,DataA2,%>% percent chance to avoid an attack.
 }
 
-STRING 3487
-{
-Version 0.6 Alpha
-}
-
-STRING 3488
-{
-Major overhaul
-}
-
 STRING 3489
 // Abilities: A010 (Vengeance), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -15527,43 +15235,6 @@ STRING 3703
 // Items: I001 (Gem of True Seeing [AI]), Ubertip (Tooltip - Extended)
 {
 |cffffa500Passive|r|nTrue Sight|n|n|cffff0000Doesn't drop but has shatter chance upon death!|r
-}
-
-STRING 3704
-{
-Version 0.7 Beta
-}
-
-STRING 3705
-{
-Changed some models and icons
-Disabled damage bonus due to crash issues
-Created a new kit for Mountain King
-Lowered Demon's Fury mana cost
-Added lumber cost to upgrade and AI now generate lumbers for themselves as well
-Added Gold Coins and Bundle of Lumber to Karmon the Dragon Hunter (new name for Dwarf Miner)
-All shop now doesn't show any minimap icon unless approached
-Removed Dragon Roost from random troop shop
-Improved gold bonus per second
-Lowered Blood Money duration, but increased gold lost and cooldown
-New items
-Improved AI slightly
-Improved Blademaster Wind Walk and Critical Strike
-Shuffled Blood Mage and Shadow Hunter
-Fixed Kodo Beast selling
-Created a new kit for Crypt Lord
-Improved Dreadlord's Inferno
-Reduced Starfall's mana cost from 150/148/147 to 100
-Increased Master Vampire (Day) reduction effect
-Reduced Master Vampire (Night) bonus effect
-Changed Summon Water Elemental mana cost distribution
-Improved Rage effect
-Improved Eye of Seer effect
-Reduced Shuriken mana cost
-Improved Inferno mana cost, effect and summon
-Reduced Frostmoure's percentage for level 1
-Increased Elune's Arrow distance
-Improved some Human heroes spells
 }
 
 STRING 3706
@@ -16441,32 +16112,6 @@ STRING 3913
 An impenetrable shield surrounds this unit, protecting it from all damage for <A00V,Dur4> seconds.
 }
 
-STRING 3914
-{
-Version 0.8 Beta
-}
-
-STRING 3915
-{
-More model and icon changes (credits will be added by 1.0)
-Items now have proper 120 second cooldown for permanent items
-Rebalances some item cost
-Level cap increased to 20
-Expanded Hero non-ultimate ability by 1 level
-Added Attribute Bonus
-Rebalances ability to reflect the additional level
-Fixed some spell tooltips
-Fixed Paid Mercenary doesn't grant bonus gold
-Increases AI revival time
-New victory/defeat condition
-Increased main building health
-Creep Boost now affects summons
-Paladin's Holy Light now heals self
-Now bounty rises slowly as the hero survives
-Improved Paladin's Exorcism damage from 75 to 150 + 2x(Strength+Intelligence)
-Changes bounty mechanic : killing powerful heroes significantly increase your bounty, killing weak heroes rises bounty decently, killing with units devoid bounty rise
-}
-
 STRING 3916
 // Abilities: A01F (Blade Fury), Researchubertip (Tooltip - Learn - Extended)
 {
@@ -16927,36 +16572,6 @@ STRING 4011
 // Items: I001 (Gem of True Seeing [AI]), Description (Description)
 {
 |cffffa500Passive|r|nTrue Sight|n|n|cffff0000Doesn't drop but has shatter chance upon death!|r
-}
-
-STRING 4012
-{
-Defeat!
-}
-
-STRING 4013
-{
-Defeat!
-}
-
-STRING 4014
-{
-Defeat!
-}
-
-STRING 4015
-{
-Defeat!
-}
-
-STRING 4016
-{
-Defeat!
-}
-
-STRING 4017
-{
-Defeat!
 }
 
 STRING 4018
@@ -17505,43 +17120,6 @@ STRING 4140
 Reduces mana regeneration to nearby enemy units. |n|n|cffffcc00Level 1|r - Grants minor mana degeneration. |n|cffffcc00Level 2|r - Grants moderate mana degeneration. |n|cffffcc00Level 3|r - Grants heavy mana degeneration.|n|cffffcc00Level 4|r - Grants severe mana degeneration.
 }
 
-STRING 4145
-{
-Version 1.1
-}
-
-STRING 4146
-{
-Fixes Anti-Magus Axe item
-Fixes Item Healing text from AI heroes
-Undead champions now has green color text
-Raises Armor of Darkness level req from 1 to 2
-Raises Unholy Aura level req from 1 to 3
-Raises level skip req of all Far Seer hero abilities except Elementalist from default to 3
-Reposition Elementalist X Button from 2 to 3
-Raises Thorns Aura level req from 1 to 3
-Raises Attribute Bonus level req from 1 to 7
-Reduces Attribute Bonus skip level req from default to 1
-Increases Hunt cooldown from 5 to 60 seconds
-Reset Blood Mage to use the default Blood Mage materials
-Heroes can no longer be duplicate between players (AI still has chance to duplicate with player hero)
-Reduces food used from heroes from 5 to 0
-Reduces max food to 100 from 300
-Blood effect disappear on death
-Completed X-Commander of Acceleration Squad
-Improves Sword of Judgement by adding 40 damage
-Increases Mantle of Imelda cost from 500 to 1000
-Increases Talisman of Stars int bonus from 3 to 6
-Grand Phoenix now benefits from Damage Empower
-Changed Relocation Magic to work on all units, not only Magic Marked ones
-Increases Relocation Magic mana cost from 75/50 to 125
-Changed Relocation Magic to have 1 second delay
-Changed Relocation Magic cooldown to 7 from 10/5
-Added Tauren Chieftain and Far Seer to AI roster
-AI pick now shows picked hero for 60 seconds
-AI now renamed with name of hero to help identification
-}
-
 STRING 4147
 // Abilities: A01Z (Magic Mark), Name (Name)
 {
@@ -17932,43 +17510,6 @@ STRING 4239
 A holy light that can heal a friendly living unit for <A00T,DataA4> or deal half damage to an enemy Undead unit. at night it heals for <A00S,DataA4> hit points and has twice as long cooldown. Grants additional 4 to all stats.
 }
 
-STRING 4241
-{
-Icons
-}
-
-STRING 4242
-{
-HammerFist132 : Cooldown Indicator
-KelThuzad : BTNArcane + BTNExorcism
-Palaslayer : BTNLight
--Berz- : BTNWardenGlaive
-PeeKay : BTNCloakofshadows
-Walle : BTNIcysword
-Ujimasa Hojo : BTNHallsOfTheDead + BTNBlackCitadel
-Blizzard Entertainment : BTNTaurenTotemBETA
-Marcos DAB : BTNGolemCarapace
-Muoteck : BTNDrainLife
-Zephyrius2412 : Blood Mage
-}
-
-STRING 4243
-{
-Version 0.9 Beta
-}
-
-STRING 4244
-{
-Fixed a leak with Exorcism
-Completed Blood Mage hero
-Increase Blink (Warden) cooldown from 10/7/10/4 to 10/10/10/10
-Set all player's color to Coal from Maroon
-Properly place hero icons in the tavern
-Decrease Exorcism damage by 100
-Increase number of player to 12
-Decrease level of research to
-}
-
 STRING 4245
 // Abilities: A015 (Frost Nova), Ubertip (Tooltip - Normal - Extended)
 {
@@ -18327,21 +17868,6 @@ STRING 4309
 // Abilities: A015 (Frost Nova), Researchtip (Tooltip - Learn)
 {
 Learn Frost Nova [|cffffcc00Z|r] - [|cffffcc00Level %d|r]
-}
-
-STRING 4311
-{
-Defeat!
-}
-
-STRING 4312
-{
-Defeat!
-}
-
-STRING 4313
-{
-Defeat!
 }
 
 STRING 4314
@@ -19250,23 +18776,6 @@ STRING 4518
 Send a 2500 speed arrow in a line that deals <A00Z,DataA4> damage per unit, max <A00Z,DataB4> damage. Has <A00Z,DataC4> range. 25% chance for 2 seconds cooldown and free mana on next cast.
 }
 
-STRING 4523
-{
-Game Mode (Activated if any player types it, must be within 180 seconds of game):
--sr : spawn every 14 seconds and 30 seconds.
-
-Commands :
--ai : shows/hide AI reports (disabled by default)
--b : shows bounty bonus of all players
--sb : shows bounty bonus of your own
--t : shows tech information
-}
-
-STRING 4524
-{
-Requires Magic Mark!
-}
-
 STRING 4525
 // Abilities: A00D (Frostmoure), Ubertip (Tooltip - Normal - Extended)
 {
@@ -19987,42 +19496,6 @@ STRING 4686
  (Player) [NE] (Tank) (Burst)
 }
 
-STRING 4687
-{
-Version 1.0
-}
-
-STRING 4688
-{
-Reset Slow Poison for Dryads
-Completed Lich hero
-Completed TC hero
-Totem of Might now benefits from Damage Empower and Shield Boost
-Increase Star Rain base damage from 60 to 100
-Decrease Starfall cooldown from 150/140/130/120 to 120 seconds
-All players properly gain extra bounty over time
-Completed Shadow Hunter hero
-'Blood Effect' on low health
-Reduce Hunter (Night) Bash chance from 75% to 60%
-Changed UD Mercenary hero name
-Update Carrion Swarm (Dreadlord) tooltip
-Completed Far Seer hero
--lvl command now gives level 20
-Elune's Arrow now has 25% chance for fast cooldown and free mana for next cast
-Changed Shadow Meld of PotM with Unseen Watcher
-Fixed a bug that causes some AI to not revive
-Increases damage bonus from Frozen Sword/Frostmoure from 1.25/2 to 2/3
-Reduces chance for Frozen Sword/Frostmoure from 50/100 to 33/66
-Completed Death Knight hero
-Teleportation items now has 150 seconds initial cooldown
-Gem of True Seeing now has 300 seconds cooldown and initial cooldown
-Artifacts now has 600 seconds initial cooldown and 300 seconds cooldown
-Fixed Sentinel heroes might get stuck after teleport to near fountain
-Completed Keeper of the Grove hero
-Reduces Searing Arrow's damage from 30/60/120/240 to 30/60/90/120
-Ability texts!
-}
-
 STRING 4689
 // Units: H008 (X-Commander of Acceleration Squad), Name (Name)
 {
@@ -20461,60 +19934,6 @@ STRING 4822
 Blinks to a unit. Automatically resets cooldown if used on unit with Magic Mark. Slow down all enemy units afflicted in the area.
 }
 
-STRING 4823
-{
-Version 1.2
-}
-
-STRING 4824
-{
-Changed Loading Screen
-Reduced Lich's Frost Cage cooldown from 120 to 60
-Brig Brewale the Alchemist now sells new, different items!
-Zark the Worldbender enters this world! Find him and purchase his exclusive item to help turn the tide!
-Fixed NE Mercenary hero not gaining bonus bounty properly
-Heaven Bracer's damage reduction removed
-Heaven Bracer's EXP bonus increased from 10% to 30%
-Creeps are no longer under player's control
-AI and Player now starts at Fountain
-Tier 1 Tower HP increased from 1500 to 2500
-Tier 2 Tower HP increased from 3000 to 5000
-Gold is now split into number of player in team instead of 3
-Reduced select time from 5 to 3 minutes
-Game begins after selection ends
-AI select hero at 0:30
-Greatly increases tower armor, from 10 to 100/200 and upgrade bonus from 1 to 5/10 (Tier 1/Tier 2)
-Killing will creep/summon now gives your head more bounty than with hero
-Carrion Beetles now gains damage bonus from Empower
-Damage Empower bonus damage increased from 2 to 5
-Damage Empower now affects most summons
-Removed items from Tombs of Relic and Ancient of Wonders
-Added more AI heroes
-Increases AI EXP Rate from 20/40/60% to 40/60/80%
-Doubled the bounty of spawns
-Fixed Bounty bonus information not accessible for some players
-Dramatically increase bounty rise to encourage hero killing
-Changed Fire Style : Phoenix Assault to Fire Style : Phoenix Charge
-AI no longer random heals
-Lowered Spirit Link share of damage from 90% to 50%
-Reduced Far Seer's Water Wave cooldown from 30/25/20/15 to 15
-Eye of Seer now has 30% proc chance
-Fixed Holy Blessing not upgraded by Innate Upgrade
-Changed hotkey of heroes
-Changed cost of heroes into 500G/250L
-Increased Starting Gold and Lumber, adapts to player number
-Moved starting taverns to center
-Corrected Mind Cooperation tooltip
-New Hero : Guardian of Light
-Reinforcements now has 'summoned' classification
-Changed Mass Teleport to affect heroes only
-Fixed an issue with handicap boost
-New Item : Todi's Staff (Norandur)
-New Item : Magic Scroll (Norandur)
-
-KNOWN ISSUE : Random desyncs in multiplayer
-}
-
 STRING 4825
 // Abilities: A037 (Phoenix Assault), Tip (Tooltip - Normal)
 {
@@ -20815,11 +20234,6 @@ STRING 4897
 A
 }
 
-STRING 4900
-{
-AI heroes will begin selection in 5 seconds!
-}
-
 STRING 4901
 // Upgrades: R001 (Magic Sentry), Ubertip (Tooltip - Extended)
 {
@@ -21040,27 +20454,6 @@ STRING 4946
 // Items: I00Y (Heaven Smasher), Hotkey (Hotkey)
 {
 A
-}
-
-STRING 4953
-{
-+5
-}
-
-STRING 4954
-{
--5
-}
-
-STRING 4955
-{
-Models
-}
-
-STRING 4956
-{
-Blood Mage : Ujimasa Hojo
-Archangel : Arch Angel, General Frank
 }
 
 STRING 4958
@@ -22029,11 +21422,6 @@ STRING 5237
 Learn Flash Out [|cffffcc00C|r] - [|cffffcc00Level %d|r]
 }
 
-STRING 5243
-{
-Speed of Light physical evasion has been removed!
-}
-
 STRING 5245
 // Abilities: A03O (High Corruption), Name (Name)
 {
@@ -22092,47 +21480,6 @@ STRING 5265
 // Items: I00S (Sadim's Sword), Hotkey (Hotkey)
 {
 E
-}
-
-STRING 5281
-{
-Version 1.3
-}
-
-STRING 5282
-{
-Fixed -b due to being main probable cause for desync
-Speed of Light now gives 30%/60% evasion instead of temporal 15 minutes evasion
-Heaven's Bracer is now droppable
-Removed passive part of Rage
-Zann the Light renamed to Manadar the Light
-Fixed Light Blast tooltip
-Reduced Light Blast int factor from 11/4 to 9/4
-Zan now has 300 initial hp, up from 100 to compensate for his loss of 100% evasion
-Increase cooldown of Flash Out to 15 seconds, up from 1 second
-New shop : Thorka the Axebearer
-Fixes tower not regenerating properly
-Reduces tower armor to 0 for all Reinforcement's towers
-Handicap Boost now boost Reinforcement's towers' armor
-Fixed Silence cooldown being invinsible
-Improved Todi's Staff's silence ability by increasing duration by 4 (2) seconds and area by 275
-Improved High Corruption armor destroyed by 10 points
-Hero Slayer is now dropped upon death
-Reduced Hero Slayer price by 1000 golds
-Changed layout of both fountains slightly
-Increased Fountain regeneration over shorter distance
-Changed Reinforcement's tower layout
-Level II Towers now has Critical Strike
-Handicap Boost now improves Reinforcement Tower's damage
-Fixed Karmon's Gun item
-AI now choose at the last 15 seconds instead of first 30 seconds
-Light Pulse cooldown increased from 8 to 45
-Light Blast cooldown increased from 15 to 30
-Bounty now rises faster if you kill weaker heroes, as opposed to stronger heroes to encourage weaker players to kill the strongest player
-Fixed Archmage's Water Elemental tooltip
-New Heroes : Fallen the Fallen, Sadim Bright the General of Alariz Alliance
-Upgraded Hero Slayer
-[Wrap some of the magic numbers into constants for improvements in future balancing, lot more but I'm occupied at the moment...]
 }
 
 STRING 5283
@@ -23281,43 +22628,6 @@ STRING 5576
 When killed, the Lord of the Dead will come back to life. Reincarnation has a <A048,Cool1> second cooldown.
 }
 
-STRING 5577
-{
-Version 1.4
-}
-
-STRING 5578
-{
-New:
-Hero: Hamaria - Lord of the Dead
-Hero: Akechi Goro - Crow
-Hero: Black Mask - Loki
-Item: Corruption Orb [Karmon]
-
-Changes:
-Reduces health of all tiers of town hall massively
-Mana now regenerates rapidly near fountain
-Moved shops to avoid getting trapped during teleports
-Changed Assassin's Claw to Power Axe for AI Item Set
-Fixed Mind Terror's hotkey
-Increased Nature Bind's stun from 6 (3) to 10 (5)
-Increased Peace's duration from 10 to 15
-Doubled Shadow Strike's initial damage on all levels
-Flash Out now has 150 seconds cooldown
-Increased Elune's Arrow's damage from 150/225/300/500 to 200/400/600/800
-Elune's Arrow range now reflects properly how long it will travels
-Triples Star Rain's starfall damage from 10/20/30/40 to 30/60/90/120
-Eye of Darkness [Active] will not damage Affad Aybe anymore
-Relocation Magic cooldown severely increased to 120 seconds
-Relocation Magic now afflicts everyone in the radius
-Reduced start time by 1 minute
-Innate Upgrade now has 1 second research, down from 1 minute
--t now shows player's exp rate in percentage
-
-Fixes:
-Player 11-16 will now get proper limiter for hero and get resources from the base gold gathering
-}
-
 STRING 5579
 // Abilities: A049 (Executioner), Name (Name)
 {
@@ -23736,18 +23046,6 @@ STRING 5656
 // Abilities: A04E (Army of the Dead), EditorSuffix (Editor Suffix)
 {
  (Lord of the Dead)
-}
-
-STRING 5657
-// Abilities: A01I (Star Rain), Researchubertip (Tooltip - Learn - Extended)
-{
-Calls down <A01I,DataA1> falling star waves; each wave deals <A01I,DataB1> damage to units in an area. This ability also creates 4 starfall fields at target field that cast starfall which has 15 seconds where each star deals 30/60/90/120 damage based on Starfall level.
-}
-
-STRING 5658
-// Abilities: A01I (Star Rain), Ubertip (Tooltip - Normal - Extended)
-{
-Calls down <A01I,DataA1> falling star waves; each wave deals <A01I,DataB1> damage to units in an area. This ability also creates 4 starfall fields at target field that cast starfall which has 15 seconds where each star deals 30/60/90/120 damage based on Starfall level.
 }
 
 STRING 5659
@@ -24176,11 +23474,6 @@ STRING 5769
 Fires an almighty wave for 400 damage a second for 3 seconds. As the energy subsides, units within the area continue to take damage.
 }
 
-STRING 5771
-{
-Insufficient health for Megaton Raid!
-}
-
 STRING 5775
 // Abilities: A04H (Kouga(on)), Ubertip (Tooltip - Normal - Extended)
 {
@@ -24203,11 +23496,6 @@ STRING 5778
 // Abilities: A04H (Kouga(on)), Ubertip (Tooltip - Normal - Extended)
 {
 Flashes an enemy with bless element, dealing <A04H,DataA4> damage and stunning the target for <A04H,Dur4> seconds. Also causes enemy to lose orientation, slowing them for 30 seconds.
-}
-
-STRING 5781
-{
-List of all players' bounty bonuses :
 }
 
 STRING 5782
@@ -24420,26 +23708,6 @@ STRING 5828
  (Loki)
 }
 
-STRING 5829
-{
-Insufficient health for Lavaeteinn!
-}
-
-STRING 5834
-{
-Insufficient level for Lavaeteinn!
-}
-
-STRING 5835
-{
-Tactical Spirit activated! Some mana recovered!
-}
-
-STRING 5836
-{
-Tactical Spirit activated! Some mana recovered!
-}
-
 STRING 5837
 // Units: n001 (Elven Altar), Name (Name)
 {
@@ -24548,77 +23816,6 @@ STRING 5858
 Laevateinn [|cffffcc00W|r]
 }
 
-STRING 5859
-{
-Version 1.4.1 [Private]
-}
-
-STRING 5860
-{
-Nerfed Far Seer's broken passive
-Fixed Crypt Lord Devour bug
-Cumulonimbus no longer invulnerable, but has Divine armor instead
-Remake the following items functions: Karmon's Gun, Anti-Magus Axe (now Slayer Axe), Hero Slayer (now Heaven Smasher)
-Atika's Necklace now gives a warning for consideration of it's potential unwanted side effects.
-Rename some spell internal names
-Changed the SFX of Kouga(on)
-Nerfed Lich Slow Aura movement reduction from 50(70)% to 20(50)%
-Nerfed Crypt Lord Spiked Carapace return damage but increase armor bonus
-Our fellow Big Brewale now open shops at front lines too
-Creep Boost no longer increases health regen but gives armor bonus
-Call of Chaos now reduces 20 armor instead of 10 armor, also reduces damage bonus from 300(600)% to 200(400%)
-Improves AI lumber flow
-}
-
-STRING 5861
-{
-Version 1.5
-}
-
-STRING 5862
-{
-A new building now existed as the target building for both sides.
-Mind Cooperation now increases XP rate by 3% per upgrade.
-Added 2 additional gold mines to improve base AI flow.
-Innate Upgrade now requires 3 levels of upgrades from Mind Cooperation, Body Cooperation, Shield Upgrade, and Damage Empower.
-Fixed an issue with Victory/Defeat conditions.
-AI no longer train troops from their Altars.
-New Feature: Soul Essence
-Changed attribute relation to combat stat values, making heroes more powerful but fragile.
-Greatly increase experience required for next level to redistribute exp relation with the new Mind Cooperation bonus.
-Fixed a major bug with some heroes' not getting armor from Shield Upgrade.
-Increased Phoenix Assault (Magus Scepter) damage from 500 to 1000 and can now damage structures.
-If AI somehow bugs, they will now resets every 30 seconds.
-Power Axe strength bonus reduced from 20 to 12.
-Fixed a weird issue with Affad Aybe's Eye of Darkness passive not proc properly.
-Lord of the Dead ultimate replaced with a new one.
-Adjusted price of several items in correlation to their power.
-Improved Horn of Magus stats.
-Improved Magic Scroll stats.
-Improved Maiev's Bracer stats.
-New Item: Golem Fragment.
-Chilling Aura now affects 900 range, down from 1000
-Changes Attribute Bonus to make it a viable choice in early game.
-Player now gains XP twice as fast. AI also adjusted for all difficulties.
-Repositioned the starting taverns.
-Creep Shield only triggers after tenth level of upgrade.
-Additional abilities for spawns.
-A half map wide visibility is now given for both sides, allowing better control of the player's side situation.
-New Shop: Shayra the Lorekeeper
-Magus Scepter's Phoenix Assault deals 1800 damage, up from 1000.
-Sadim's General Sword now deals 100 (50) feedback, up from 30 (15). Multiplier against unit increased from 2 to 4.
-Changed some AI purchasing behaviors.
-Reduces initial resources by 66%.
-AI now has less gold bonus.
-Items no longer dropped on death, with some exceptions.
-Blood Money now only takes 5 golds per hit, down from 25 golds.
-Greatly improves Magic Scroll's Cripple.
-Akechi's Debilitate now costs 120 mana, down from 150 mana, and afflict for twice as long.
-Spawns are no longer classified as summon.
-Reduced main stat factor for damage from 3 to 1.25, effectively reducing base damage by more than 50% for heroes from their previous patch.
-Tweaked cost of some items.
-}
-
 STRING 5865
 // Items: I00L (Slayer Axe), Name (Name)
 {
@@ -24725,21 +23922,6 @@ STRING 5893
 // Units: h00G (Horde Center), Name (Name)
 {
 Horde Center
-}
-
-STRING 5894
-{
-Defeat!
-}
-
-STRING 5895
-{
-Defeat!
-}
-
-STRING 5896
-{
-Defeat!
 }
 
 STRING 5897
@@ -26326,11 +25508,6 @@ STRING 6181
 E
 }
 
-STRING 6185
-{
-|cffff0000You can only have 1 Soul Essence!|r
-}
-
 STRING 6186
 // Items: I019 (AI: Orb), Name (Name)
 {
@@ -27057,65 +26234,6 @@ STRING 6389
 Bestow the true power of Hamaria, Lord of the Dead. This ability changes Hamaria attack type to Chaos and unlocks Blade of Aeon.|n|n|cffc0c0c0[Blade of Aeon]|r - Gives a <A04S,DataA1>% chance to do <A04S,DataB1> times normal damage on an attack.
 }
 
-STRING 6390
-{
-Version 1.6
-}
-
-STRING 6391
-{
-[BUGFIXED] 
-Affad's Essence triggers twice whenever attacked
-Hamaria the Aeon can be learned despite has been learned before
-Hamaria the Aeon not dealing Chaos damage
-Blade Fury tooltip for level 4 being missing
-Hysteria using Vampiric Aura buff
-
-[NEW] 
-Hero: Joker
-Item: Assar's Essence
-Item: Directive's Essence
-Shop: Hive Totem
-Item: Raidou's Essence
-Game Mode: Spawn Rush
-
-[BALANCE CHANGES]
-LegendzKing's Essence: Armor bonus reduced from 0.3 to 0.1
-Atika's Essence: HP and MP bonus increased from 5 to 15*level
-Affad's Essence: Only gains stat if damage is over 200 points. Now reduces damage taken if triggers.
-Affa's Essence: Reduces 7 stats instead of 10 stats. Minimum stat reduced from 30 to 20. Recovers with FULL mana and RESET all ability cooldowns.
-Demoniac: Increased armor reduction from 20 to 25 points.
-Loki Essence: Moved to a hidden shop
-General Change: Daytime/Nighttime duration is doubled
-General Change: Game now starts at Daytime
-Karmon's Gun: Reduced cast time from 20 seconds to 8 seconds
-General Change: Chaos damage now deals 2x damage to all armor except Divine
-Affa's Essence: Now also prevents owner from giving bounty to enemies
-Innate Upgrade: No longer requires 3 levels of upgrade from other hero upgrading options, but requires hero to be alive
-Archmage: Water Elementals now influenced by Intelligence
-AI: Now resets every 15 seconds
-AI: Added 2 more hero to AI pool
-Spawn: Now travels at maximum speed when unhindered
-Sadim's Essence: Now recovers 18 health for each level
-Fallen: Shattering Presence now deals 10/20/30/40 damage per second, down from 50/100/150/200 per second. Tick instance reduced by 80%, lowering effectivity of damage-based essences effect from this spell.
-Keeper of the Grove: Health bonus for Nature's Force now changed to intelligence based from 250 constant.
-Black Mask/Crow: Eiga(on) now deals 125/300/450/700, up from 100/250/400/550
-Fallen: Animation now revives 2/4/6/8 and affects 1200 range, up from 1/2/3/4 and 900 range.
-Death Knight: Death's Decree damage increased from 250 to 800.
-Tauren Chieftain: Reincarnation cooldown reduced from 600/500/400/300 to 500/400/300/200.
-General of Alariz Alliance: General's Sword mana combust reduced from 100 (50) to 60 (30).
-Archmage: Reduced Cold Nova mana cost from 100/75 to 50/50
-Crow: Kouga attack speed reduction increased from 50% to 75%
-Death Knight: Undead General damage bonus reduced from 50%/60% to 35%/50%.
-Warden: Shadow Strike now only lasts 3 seconds with 1 second damage interval, but cooldown reduced to 5 seconds. This effectively change the ability from immobilization type to burst damage.
-Affad's Essence: Now provides 1 to all stats instead of 2 int per trigger.
-Crow: Tactical Spirit now recovers 100/250, up from 50/200.
-Affa's Essence: Now gives bounty to wearer when they die.
-AI: XP Rate increased from 80/100/150 to 120/150/200.
-X-Commander of Acceleration Squad: Eye of Darkness in active form now instantly refresh all abilities on cast.
-Lord of the Dead: Increase health restored from 25%/50%/75%/100% to 50%/100%/150%/200%
-}
-
 STRING 6394
 // Items: I018 (LegendzKing's Essence: Undying Fury), Ubertip (Tooltip - Extended)
 {
@@ -27138,11 +26256,6 @@ STRING 6400
 // Items: I016 (Atika's Essence: Light's Protection), Description (Description)
 {
 |cffffa500Passive|n|rHeals nearby allies by 100 HP and permanently increase health and mana by 15 per level on every spellcast.|n|n|cffffcc00History|r|n|nAtika Amalia, a powerful spellcaster who prefers avoiding conflict and heals rather than direct combat.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
-}
-
-STRING 6403
-{
-|cffff0000I will not die!|r
 }
 
 STRING 6404
@@ -27324,16 +26437,6 @@ STRING 6442
 Chaos attacks do double damage to all armor types except Divine, which deals full damage.
 }
 
-STRING 6445
-{
-Blocked!
-}
-
-STRING 6446
-{
-Reduced!
-}
-
 STRING 6451
 // Items: I01J (Assar's Essence: Wrath of the Warrior), Ubertip (Tooltip - Extended)
 {
@@ -27483,20 +26586,10 @@ STRING 6482
 Get the Latest Version at hiveworkshop.com!
 }
 
-STRING 6484
-{
-Counter!
-}
-
 STRING 6487
 // Abilities: A052 (Hazy Presence), Ubertip (Tooltip - Normal - Extended)
 {
 Gives a <A052,DataA1,%>% percent chance to avoid an attack. Whenever struck by an attack, gives 22% chance to block and deal Agility as damage to attacker.
-}
-
-STRING 6489
-{
-Spawn Rush activated!
 }
 
 STRING 6494
@@ -27595,16 +26688,6 @@ STRING 6512
 Links <A02K,DataB1> units together in a chain. All units with Voodoo on them will distribute <A02K,DataA1,%>% of the damage they take across other linked units. |nLasts <A02K,Dur1> seconds.
 }
 
-STRING 6513
-{
-Sentinel Victory!
-}
-
-STRING 6514
-{
-Scourge Victory!
-}
-
 STRING 6515
 // Items: I01C (Sadim's Essence: Navalas' Faith), Ubertip (Tooltip - Extended)
 {
@@ -27615,18 +26698,6 @@ STRING 6516
 // Items: I01C (Sadim's Essence: Navalas' Faith), Description (Description)
 {
 |cffffa500Passive|n|rGains 18 HP for each hero level whenever a spell is cast. Increases ally heroes in 400 range's damage by 121.|n|n|cffffcc00History|r|n|nAlliance savior, whom driven back the tide against the dark army.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
-}
-
-STRING 6517
-// Items: I01L (Raidou's Essence: Raidou the Aeon), Ubertip (Tooltip - Extended)
-{
-|cffffa500Passive|n|rChanges damage to Chaos and provides 50% attack bonus.|n|n|cffffcc00History|r|n|nRaidou Kuzunoha is the protector of the capital from the Demon Realm.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
-}
-
-STRING 6518
-// Items: I01L (Raidou's Essence: Raidou the Aeon), Description (Description)
-{
-|cffffa500Passive|n|rChanges damage to Chaos and provides 50% attack bonus.|n|n|cffffcc00History|r|n|nRaidou Kuzunoha is the protector of the capital from the Demon Realm.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
 }
 
 STRING 6519
@@ -27995,34 +27066,6 @@ STRING 6609
 Nearby friendly melee units gain <A057,DataA4,%>% of their attack damage when they hit enemy units. Joker regains 40% of max health and mana on hero kill, and acquires 4 agility.
 }
 
-STRING 6610
-{
-Version 1.7
-}
-
-STRING 6611
-{
-[BUGFIX]
-Water Style : Navalas now has it's learn tooltip fixed.
-
-[GENERAL CHANGES]
-Serpent Ward renamed into Mass Serpent Ward
-Spawn Rush spawn is now at 13 and 20 seconds, changed from 14 and 30 seconds
-General spawn is now 20 seconds
-Spawn Archer renamed to Warden
-Spawn Huntress renamed to Watcher
-Spawn Glaive Thrower renamed to Ballista
-Spawn Ghoul renamed to Infest
-Spawn Crypt Fiend renamed to Skeleton Archer
-Spawn Meat Wagon renamed to Plague Wagon
-
-[BALANCE CHANGES]
-Mass Serpent Ward now spawns 2/4/6/8 changed from 4/4/4/8
-Creep Frenzy is given at 1st level down from 3rd level
-Tower Hero Slayer is given at 8th level down from 10th level
-Watcher now has 225 range, up from 150
-}
-
 STRING 6612
 // Abilities: S003 (Water Style : Navalas), Ubertip (Tooltip - Normal - Extended)
 {
@@ -28087,5 +27130,41 @@ STRING 6622
 // Abilities: A013 (Serpent Ward), Researchtip (Tooltip - Learn)
 {
 Learn Mass Serpent Ward [|cffffcc00C|r] - [|cffffcc00Level %d|r]
+}
+
+STRING 6623
+// Items: I01L (Raidou's Essence: Raidou the Aeon), Ubertip (Tooltip - Extended)
+{
+|cffffa500Passive|n|rChanges damage to Chaos and provides 50% attack bonus.|n|n|cffffcc00History|r|nRaidou Kuzunoha is the protector of the capital from the Demon Realm.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
+}
+
+STRING 6624
+// Items: I01L (Raidou's Essence: Raidou the Aeon), Description (Description)
+{
+|cffffa500Passive|n|rChanges damage to Chaos and provides 50% attack bonus.|n|n|cffffcc00History|r|nRaidou Kuzunoha is the protector of the capital from the Demon Realm.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
+}
+
+STRING 6625
+// Abilities: A01I (Star Rain), Researchtip (Tooltip - Learn)
+{
+Learn Eclipse [|cffffd700V|r]
+}
+
+STRING 6626
+// Abilities: A01I (Star Rain), Tip (Tooltip - Normal)
+{
+Eclipse [|cffffd700V|r]
+}
+
+STRING 6627
+// Abilities: A01I (Star Rain), Researchubertip (Tooltip - Learn - Extended)
+{
+Calls down <A01I,DataA1> falling star waves; each wave deals <A01I,DataB1> damage to units in an area. This ability also creates 4 starfall fields at target field that cast starfall which has 15 seconds where each star deals 30/60/90/120 damage based on Starfall level. Instantly converts to midnight for 30 seconds.
+}
+
+STRING 6628
+// Abilities: A01I (Star Rain), Ubertip (Tooltip - Normal - Extended)
+{
+Calls down <A01I,DataA1> falling star waves; each wave deals <A01I,DataB1> damage to units in an area. This ability also creates 4 starfall fields at target field that cast starfall which has 15 seconds where each star deals 30/60/90/120 damage based on Starfall level. Instantly converts to midnight for 30 seconds.
 }
 

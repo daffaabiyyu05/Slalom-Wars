@@ -1662,13 +1662,6 @@
         },
         {
           "isEnabled": true,
-          "isInitiallyOn": true,
-          "isExpanded": false,
-          "path": "Features\\Quest Log.trg",
-          "Files": []
-        },
-        {
-          "isEnabled": true,
           "isInitiallyOn": false,
           "isExpanded": false,
           "path": "Features\\Spawn Right1.trg",
@@ -1897,6 +1890,13 @@
           "isExpanded": false,
           "path": "Features\\DamageFloatText.trg",
           "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Features\\Quest Log.trg",
+          "Files": []
         }
       ]
     },
@@ -1925,6 +1925,13 @@
           "isInitiallyOn": true,
           "isExpanded": false,
           "path": "Developer Mode\\Kill Hero.trg",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "Developer Mode\\TestOrder.trg",
           "Files": []
         }
       ]
@@ -2334,7 +2341,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Death Knight",
           "Files": [
             {
@@ -2363,7 +2370,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Keeper of the Grove",
           "Files": [
             {
@@ -2385,7 +2392,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\X-Commander of Acceleration Squad",
           "Files": [
             {
@@ -2407,7 +2414,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\General of Alariz Alliance",
           "Files": [
             {
@@ -2422,7 +2429,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Fallen",
           "Files": [
             {
@@ -2772,14 +2779,14 @@
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "LineAimer\\LineAimer.j",
+          "path": "LineAimer\\LineAimerDemo.j",
           "Files": []
         },
         {
           "isEnabled": true,
           "isInitiallyOn": true,
           "isExpanded": false,
-          "path": "LineAimer\\LineAimerDemo.j",
+          "path": "LineAimer\\LineAimer.j",
           "Files": []
         }
       ]
