@@ -29,6 +29,24 @@
         "parameters": [
           {
             "ParamType": 1,
+            "parameters": [],
+            "value": "GetPlayersAll"
+          },
+          {
+            "ParamType": 5,
+            "value": "Map is initializing, please wait for around 10-20 seconds."
+          }
+        ],
+        "value": "DisplayTextToForce"
+      }
+    },
+    {
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 1,
             "parameters": [
               {
                 "ParamType": 5,
