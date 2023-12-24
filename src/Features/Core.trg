@@ -23,6 +23,33 @@
   "Conditions": [],
   "Actions": [
     {
+      "isEnabled": true,
+      "function": {
+        "ParamType": 1,
+        "parameters": [
+          {
+            "ParamType": 1,
+            "parameters": [
+              {
+                "ParamType": 5,
+                "value": "ResourceBarUpkeepText"
+              },
+              {
+                "ParamType": 5,
+                "value": "0"
+              }
+            ],
+            "value": "BlzGetFrameByName"
+          },
+          {
+            "ParamType": 5,
+            "value": "Slalom Wars!"
+          }
+        ],
+        "value": "BlzFrameSetText"
+      }
+    },
+    {
       "ElementType": 9,
       "isEnabled": true,
       "function": {

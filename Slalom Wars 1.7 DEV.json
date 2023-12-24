@@ -1903,7 +1903,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Developer Mode",
       "Files": [
         {
@@ -2460,7 +2460,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Persona Heroes Skills",
       "Files": [
         {
@@ -2488,7 +2488,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Persona Heroes Skills\\Black Mask",
           "Files": [
             {
@@ -2524,7 +2524,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Persona Heroes Skills\\Akechi Goro",
           "Files": [
             {
@@ -2560,7 +2560,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Persona Heroes Skills\\Joker",
           "Files": [
             {
@@ -2619,7 +2619,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Items",
       "Files": [
         {
@@ -2641,7 +2641,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Soul Essence",
       "Files": [
         {
@@ -2654,7 +2654,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Soul Essence\\Atlus Essence",
           "Files": [
             {
@@ -2669,7 +2669,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Soul Essence\\Hive Totem",
           "Files": [
             {
@@ -2684,7 +2684,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Soul Essence\\Kharis the Soulkeeper",
           "Files": [
             {
@@ -2765,7 +2765,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "GUI Spell System",
       "Files": [
         {
@@ -2815,7 +2815,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Item Cleanup",
       "Files": [
         {
@@ -2830,7 +2830,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "Damage Engine",
       "Files": [
         {
