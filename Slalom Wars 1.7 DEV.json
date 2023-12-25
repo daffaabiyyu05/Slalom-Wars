@@ -1878,7 +1878,7 @@
           "Files": []
         },
         {
-          "isEnabled": true,
+          "isEnabled": false,
           "isInitiallyOn": true,
           "isExpanded": false,
           "path": "Features\\Spawn Rush.trg",

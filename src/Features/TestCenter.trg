@@ -228,7 +228,7 @@
           }
         },
         {
-          "isEnabled": true,
+          "isEnabled": false,
           "function": {
             "ParamType": 1,
             "parameters": [
@@ -296,7 +296,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Game Mode (Activated if any player types it, must be within 180 seconds of game):\r\n-sr : spawn every 14 seconds and 30 seconds.\r\n\r\nCommands :\r\n-ai : shows/hide AI reports (disabled by default)\r\n-b : shows bounty bonus of all players\r\n-sb : shows bounty bonus of your own\r\n-t : shows tech information"
+            "value": "Game Mode (Activated if any player types it, must be within 180 seconds of game):|nNone Available\r\n\r\nCommands :\r\n-ai : shows/hide AI reports (disabled by default)\r\n-b : shows bounty bonus of all players\r\n-sb : shows bounty bonus of your own\r\n-t : shows tech information"
           }
         ],
         "value": "DisplayTextToForce"
