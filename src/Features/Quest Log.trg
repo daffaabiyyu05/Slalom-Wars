@@ -58,7 +58,7 @@
           },
           {
             "ParamType": 5,
-            "value": "[NEW]|nAdded Line Aimer capability to line-based spells|n|n[BUGFIX]\r\nWater Style : Navalas now has it's learn tooltip fixed.\r\n\r\n[GENERAL CHANGES]\r\nSerpent Ward renamed into Mass Serpent Ward\r\nSpawn Rush spawn is now at 13 and 20 seconds, changed from 14 and 30 seconds\r\nGeneral spawn is now 20 seconds\r\nSpawn Archer renamed to Warden\r\nSpawn Huntress renamed to Watcher\r\nSpawn Glaive Thrower renamed to Ballista\r\nSpawn Ghoul renamed to Infest\r\nSpawn Crypt Fiend renamed to Skeleton Archer\r\nSpawn Meat Wagon renamed to Plague Wagon|nSource Code is now public\r\n\r\n[BALANCE CHANGES]\r\nMass Serpent Ward now spawns 2/4/6/8 changed from 4/4/4/8\r\nCreep Frenzy is given at 1st level down from 3rd level\r\nTower Hero Slayer is given at 8th level down from 10th level\r\nWatcher now has 225 range, up from 150|nRenamed Star Rain to Eclipe|nEclipse now triggers a 15 second midnight on activation|n|n[REMOVED]|nSpawn Rush Mode"
+            "value": "[NEW]|nAdded Line Aimer capability to line-based spells|n|n[BUGFIX]\r\nWater Style : Navalas now has it's learn tooltip fixed.\r\n\r\n[GENERAL CHANGES]\r\nSerpent Ward renamed into Mass Serpent Ward\r\nGeneral spawn is now 20 seconds\r\nSpawn Archer renamed to Warden\r\nSpawn Huntress renamed to Watcher\r\nSpawn Glaive Thrower renamed to Ballista\r\nSpawn Ghoul renamed to Infest\r\nSpawn Crypt Fiend renamed to Skeleton Archer\r\nSpawn Meat Wagon renamed to Plague Wagon|nSource Code is now public\r\n\r\n[BALANCE CHANGES]\r\nMass Serpent Ward now spawns 2/4/6/8 changed from 4/4/4/8\r\nCreep Frenzy is given at 1st level down from 3rd level\r\nTower Hero Slayer is given at 8th level down from 10th level\r\nWatcher now has 225 range, up from 150|nRenamed Star Rain to Eclipe|nEclipse now triggers a 15 second midnight on activation|n|n[REMOVED]|nSpawn Rush Mode"
           },
           {
             "ParamType": 5,
@@ -621,7 +621,7 @@
           },
           {
             "ParamType": 5,
-            "value": "Glitzage : Glaive Thrower\r\nHammerFist123 : Cooldown UI\r\nAvatars Lord : Arrow Health Bar\r\nAvatars Lord : Barcode Health Bar"
+            "value": "Glitzage : Glaive Thrower\r\nHammerFist123 : Cooldown UI\r\nAvatars Lord : Arrow Health Bar\r\nAvatars Lord : Barcode Health Bar|nAvatars Lord : AOE Spell Selection"
           },
           {
             "ParamType": 5,
@@ -671,7 +671,7 @@
           },
           {
             "ParamType": 5,
-            "value": "HammerFist132 : Cooldown Indicator\r\nKelThuzad : BTNArcane + BTNExorcism\r\nPalaslayer : BTNLight\r\n-Berz- : BTNWardenGlaive\r\nPeeKay : BTNCloakofshadows\r\nWalle : BTNIcysword\r\nUjimasa Hojo : BTNHallsOfTheDead + BTNBlackCitadel\r\nBlizzard Entertainment : BTNTaurenTotemBETA\r\nMarcos DAB : BTNGolemCarapace\r\nMuoteck : BTNDrainLife\r\nZephyrius2412 : Blood Mage"
+            "value": "HammerFist132 : Cooldown Indicator|nKelThuzad : BTNArcane + BTNExorcism|nPalaslayer : BTNLight\r\n-Berz- : BTNWardenGlaive\r\nPeeKay : BTNCloakofshadows\r\nWalle : BTNIcysword\r\nUjimasa Hojo : BTNHallsOfTheDead + BTNBlackCitadel\r\nBlizzard Entertainment : BTNTaurenTotemBETA\r\nMarcos DAB : BTNGolemCarapace\r\nMuoteck : BTNDrainLife\r\nZephyrius2412 : Blood Mage"
           },
           {
             "ParamType": 5,
