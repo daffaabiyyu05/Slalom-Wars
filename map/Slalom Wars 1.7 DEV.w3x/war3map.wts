@@ -18788,12 +18788,6 @@ STRING 4526
 Gives a <A00D,DataA1>% chance to do <A00D,DataB1> times normal damage on attack against units. Account item damage.
 }
 
-STRING 4528
-// Units: E004 (Priestess of the Moon), Ubertip (Tooltip - Extended)
-{
-Warrior Hero, adept at controlling crowds and slaying enemies from afar. Has Elune's Grace and Unseen Watcher. Can learn Elune's Arrow, Searing Arrows, Starfall, and Star Rain. |n|n|cffffcc00Attacks land and air units.|r
-}
-
 STRING 4529
 // Units: U002 (Death Knight), Ubertip (Tooltip - Extended)
 {
@@ -20496,12 +20490,6 @@ STRING 4982
 // Items: I00H (Staff of Teleportation), Hotkey (Hotkey)
 {
 F
-}
-
-STRING 4987
-// Abilities: A02Z (Eye of Darkness), Ubertip (Tooltip - Normal - Extended)
-{
-Increases self movement speed by <A02Z,DataA2,%>% and reduces life regeneration rate by <A02Z,DataB2,%>%. Mana will retain at 100% while Eye of Darkness active and has 100% chance to cooldown reset except ultimate which has 5 second delay. Decreases armor of nearby allies and enemies by 5.
 }
 
 STRING 4992
@@ -26408,18 +26396,6 @@ STRING 6437
 Lily's Essence: Paradise and Dreams
 }
 
-STRING 6438
-// Items: I01M (Lily's Essence: Paradise and Dreams), Ubertip (Tooltip - Extended)
-{
-|cffffa500Passive|n|rReceives 400 max health whenever killed.|n|n|cffffcc00History|r|n|nA wanderer who were acquinted with Affad.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
-}
-
-STRING 6439
-// Items: I01M (Lily's Essence: Paradise and Dreams), Description (Description)
-{
-|cffffa500Passive|n|rReceives 400 max health whenever killed.|n|n|cffffcc00History|r|n|nA wanderer who were acquinted with Affad.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
-}
-
 STRING 6440
 // Items: I01M (Lily's Essence: Paradise and Dreams), Hotkey (Hotkey)
 {
@@ -27166,5 +27142,29 @@ STRING 6628
 // Abilities: A01I (Star Rain), Ubertip (Tooltip - Normal - Extended)
 {
 Calls down <A01I,DataA1> falling star waves; each wave deals <A01I,DataB1> damage to units in an area. This ability also creates 4 starfall fields at target field that cast starfall which has 15 seconds where each star deals 30/60/90/120 damage based on Starfall level. Instantly converts to midnight for 30 seconds.
+}
+
+STRING 6629
+// Units: E004 (Priestess of the Moon), Ubertip (Tooltip - Extended)
+{
+Warrior Hero, adept at controlling crowds and slaying enemies from afar. Has Elune's Grace and Unseen Watcher. Can learn Elune's Arrow, Searing Arrows, Starfall, and Eclipse. |n|n|cffffcc00Attacks land and air units.|r
+}
+
+STRING 6630
+// Abilities: A02Z (Eye of Darkness), Ubertip (Tooltip - Normal - Extended)
+{
+Increases self movement speed by <A02Z,DataA2,%>% and reduces life regeneration rate by <A02Z,DataB2,%>%. Mana will retain at 100% while Eye of Darkness is active and has 100% chance to cooldown reset except ultimate which has 5 second delay. Decreases armor of nearby allies and enemies by 5.
+}
+
+STRING 6631
+// Items: I01M (Lily's Essence: Paradise and Dreams), Ubertip (Tooltip - Extended)
+{
+|cffffa500Passive|n|rReceives 1500 max health and 25 stats whenever killed.|n|n|cffffcc00History|r|n|nA wanderer who were acquinted with Affad.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
+}
+
+STRING 6632
+// Items: I01M (Lily's Essence: Paradise and Dreams), Description (Description)
+{
+|cffffa500Passive|n|rReceives 1500 max health and 25 stats whenever killed.|n|n|cffffcc00History|r|n|nA wanderer who were acquinted with Affad.|n|cffff0000Max 1 Essence! Cannot be sold or dropped!|r
 }
 

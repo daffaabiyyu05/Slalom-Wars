@@ -1954,7 +1954,7 @@
     {
       "isEnabled": true,
       "isInitiallyOn": true,
-      "isExpanded": false,
+      "isExpanded": true,
       "path": "AI",
       "Files": [
         {
@@ -2319,7 +2319,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Faction Tavern One\\Blood Mage",
           "Files": [
             {
@@ -2480,7 +2480,7 @@
         {
           "isEnabled": true,
           "isInitiallyOn": true,
-          "isExpanded": false,
+          "isExpanded": true,
           "path": "Persona Heroes Skills\\Common",
           "Files": [
             {
@@ -2697,7 +2697,7 @@
             {
               "isEnabled": true,
               "isInitiallyOn": true,
-              "isExpanded": false,
+              "isExpanded": true,
               "path": "Soul Essence\\Kharis the Soulkeeper\\Assar Essence",
               "Files": [
                 {
@@ -2721,6 +2721,13 @@
               "isInitiallyOn": true,
               "isExpanded": false,
               "path": "Soul Essence\\Kharis the Soulkeeper\\LegendzKing Essence.trg",
+              "Files": []
+            },
+            {
+              "isEnabled": true,
+              "isInitiallyOn": true,
+              "isExpanded": false,
+              "path": "Soul Essence\\Kharis the Soulkeeper\\Lily Essence.trg",
               "Files": []
             },
             {
@@ -2768,6 +2775,35 @@
       "isExpanded": true,
       "path": "EXTERNAL RESOURCES",
       "Files": []
+    },
+    {
+      "isEnabled": true,
+      "isInitiallyOn": true,
+      "isExpanded": true,
+      "path": "UnitInfoPanels",
+      "Files": [
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "UnitInfoPanels\\UnitInfoPanels.j",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "UnitInfoPanels\\BountyPanel.j",
+          "Files": []
+        },
+        {
+          "isEnabled": true,
+          "isInitiallyOn": true,
+          "isExpanded": false,
+          "path": "UnitInfoPanels\\HeroPanel.j",
+          "Files": []
+        }
+      ]
     },
     {
       "isEnabled": true,
