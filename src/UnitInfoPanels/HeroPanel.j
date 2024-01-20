@@ -115,7 +115,7 @@ library CustomStatPanel initializer init_function requires UnitInfoPanels
         call initData(9, "Crit Rate: ", "ReplaceableTextures\\CommandButtons\\BTNControlMagic", "Future Patch - Rate for a damage to critical")
         call initData(10, "Hp/s: ", "ReplaceableTextures\\CommandButtons\\BTNRegenerate","Base health regeneration")
         call initData(11, "Mp/s: ", "ReplaceableTextures\\CommandButtons\\BTNMagicalSentry","Base mana regeneration")
-        call initData(12, "Spell Power: ", "ReplaceableTextures\\CommandButtons\\BTNEvasion","Future Patch - Damage multiplier for non-attack damage")
+        call initData(12, "Spell Power: ", "ReplaceableTextures\\CommandButtons\\BTNEvasion","Future Patch - Damage multiplier for spell damage")
 
     endfunction
 endlibrary
